@@ -36,15 +36,14 @@ class Person {
     }
 }
 
-class Student extends person {
-    protected int year;
-}
-
 class Instructor extends person {
 
     public void assign() {
         System.out.println(" Assign ");
     }
+}
+class Student extends person {
+    protected int year;
 }
 
 class Course {
